@@ -1,3 +1,10 @@
+import { FormPane } from "./FormPane";
+
 export default function Home() {
-  return <div>HOME</div>;
+  return (
+    <div>
+      HOME
+      <FormPane />
+    </div>
+  );
 }
